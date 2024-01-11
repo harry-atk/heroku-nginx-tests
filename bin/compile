@@ -72,4 +72,8 @@ fi
 # cleanup
 rm -r "$BUILD_DIR/nginx"
 
+if [[ -f $BUILD_DIR/test.sh ]]; then
+  bash $BUILD_DIR/test.sh
+fi
+
 exit 0
