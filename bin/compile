@@ -2,6 +2,8 @@
 
 set -e
 
+echo "compile called!"
+
 # clean up leaking environment
 unset GIT_DIR
 

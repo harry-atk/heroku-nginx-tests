@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "start-nginx called!"
+
 psmgr=/tmp/nginx-buildpack-wait
 rm -f $psmgr
 mkfifo $psmgr
